@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Fah",
+  "version": "1.0",
+  "description": "Plays fah when you fail a LeetCode test",
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["page-world.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["fah.mp3"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
+}
