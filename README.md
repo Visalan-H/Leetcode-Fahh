@@ -5,7 +5,7 @@ plays FAHH every time you fail a leetcode test case. works on both **run** and *
 <br />
 
 <p align="center">
-  <a href="https://github.com/Visalan-H/Leetcode-Fahh/releases/latest/download/leetcode-fahh.zip">
+  <a href="https://github.com/Visalan-H/Leetcode-Fahh/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/badge/⬇ DOWNLOAD ZIP-000000?style=for-the-badge&logoColor=white" alt="Download" />
   </a>
 </p>
